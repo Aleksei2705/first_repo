@@ -1,7 +1,7 @@
 def calculate_diameter(radius):
 	return 2 * radius
 
-if __name__ == " __main__ ":
+if __name__ == "__main__":
 	try:
 		radius = float(input("Введите радиус окружности"))
 		diameter = calculate_diameter(radius)
